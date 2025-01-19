@@ -1,0 +1,16 @@
+/* Diagnostic Styling */
+* {
+  outline: 2px dotted gray;
+} 
+
+/* temp background color */
+body {
+    background: lightgray;
+}
+  
+/* vertical and horizontal centering */
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
