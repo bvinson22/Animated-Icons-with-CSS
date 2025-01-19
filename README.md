@@ -17,4 +17,11 @@
 * [Animate CSS](https://daneden.github.io/animate.css/)
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 
+## Favicons
+* Need to figure out how to create the Favicon.ico
+
+## Tools Used
+* [Codepen] {https://codepen.io}
+* [Netlify] {https://www.netlify.com/}
+* [Figma] {https://www.figma.com/}
 
