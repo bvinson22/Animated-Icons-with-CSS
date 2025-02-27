@@ -1,160 +1,52 @@
 /* Diagnostic Styling */
 
 
-/* temp background color */
 body {
-    background: lightgray;
-}
-  
-#circle {
-  fill: black;
-  stroke: black;
-  stroke-width: 2px;
-  animation-name: bounceIn;
-  transition: scale 1s;
-  
-}
-
-/*   animation-iteration-count: infinite; */
-  animation-iteration-count: 1;
-  animation-delay: 1s;
-  animation-fill-mode: both;
-}
-
-#circle:hover {
-  fill: white;
-  stroke: white;
-  stroke-width: 3px;
-}
-
-#path-1 {
-  stroke: black;
-  stroke-width: 2px;
-  animation-name: bounceIn;
-  animation-duration: 5s;
-  
-}
-
-#path-1:hover {
-  stroke: red;
-  stroke-width: 3px;
-}
-
-#path-2 {
-  stroke: black;
-  stroke-width: 2px;
-  animation-name: bounceIn;
-  animation-duration: 5s;
-}
-
-#path-2:hover {
-  stroke: yellow;
-  stroke-width: 3px;
-}
-
-#path-3 {
-  stroke: black;
-  stroke-width: 2px;
-  animation-name: bounceIn;
-  animation-duration: 5s;
-}
-
-#path-3:hover {
-  stroke: blue;
-  stroke-width: 3px;
-}
-
-#path-4 {
-  stroke: black;
-  stroke-width: 2px;
-  animation-name: bounceIn;
-  animation-duration: 5s;
-}
-
-#path-4:hover {
-  stroke: orange;
-  stroke-width: 3px;
-}
-
-#path-5 {
-  stroke: black;
-  stroke-width: 2px;
-  animation-name: bounceIn;
-  animation-duration: 5s;
-}
-
-#path-5:hover {
-  stroke: green;
-  stroke-width: 3px;
-}
-
-#path-6 {
-  stroke: black;
-  stroke-width: 2px;
-  animation-name: bounceIn;
-  animation-duration: 5s;
-}
-
-#path-6:hover {
-  stroke: pink;
-  stroke-width: 3px;
-}
-
-#path-7 {
-  stroke: black;
-  stroke-width: 2px;
-  animation-name: bounceIn;
-  animation-duration: 5s;
-}
-
-#path-7:hover {
-  stroke: indigo;
-  stroke-width: 3px;
-}
-
-#path-8 {
-  stroke: black;
-  stroke-width: 2px;
-  animation-name: bounceIn;
-  animation-duration: 5s;
-}
-
-#path-8:hover {
-  stroke: purple;
-  stroke-width: 3px;
-}
-
-
-@keyframes rotateRays {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-#path-1, #path-2, #path-3, #path-4, #path-5, #path-6, #path-7, #path-8, circle {
-  transform-origin: 50% 50%;
-  animation: rotateRays 10s linear infinite;
-}
-
-
-/* SVG props */
-svg{
-  background: lightgray;
-  fill: lightgray;
-  
-  stroke: blueviolet;
-  stroke-width: 1;
-  
-/*  Diagnostic styling  */
-  scale: 10;
-}
-
-/* vertical and horizontal centering */
-body {
-  display: grid;
-  place-content: center;
+  background-color: #0f0f1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
+.container {
+  display: flex;
+  gap: 50px;
+  position: relative;
+}
+
+svg {
+  width: 64px;
+  height: 64px;
+  stroke: white;
+  stroke-width: 2;
+  cursor: pointer;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+}
+
+.controls {
+  position: absolute;
+  bottom: -60px;
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+

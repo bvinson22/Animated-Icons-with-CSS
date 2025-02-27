@@ -16,6 +16,9 @@
 * Icons from [Lucide](https://lucide.dev/)
 * [Animate CSS](https://daneden.github.io/animate.css/)
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
+* [Claude AI] {https://claude.ai/new}
+* [CHAT GPT] {https://chatgpt.com/}
+* [GSAP] {https://gsap.com/}
 
 ## Favicons
 * Need to figure out how to create the Favicon.ico
@@ -24,4 +27,5 @@
 * [Codepen] {https://codepen.io}
 * [Netlify] {https://www.netlify.com/}
 * [Figma] {https://www.figma.com/}
-
+* [Claude AI] {https://claude.ai/new}
+* [CHAT GPT] {https://chatgpt.com/}
