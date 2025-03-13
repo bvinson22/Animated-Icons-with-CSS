@@ -1,11 +1,7 @@
-# Animate SVG Icons with CSS
+# Animate SVG Icons with CSS and Javascript
 
 ## Why? 
-* Understand the parts of SVG elements that can be animated
-* CSS Animations are lightweight and easy to implement and improve user experience
-* Learn CSS tranforms, transitions, and keyframes
-* Add existing animation libraries to your project and save time
-* Use SVG icons in your future projects
+I really love playing on a Playstation. It has been a part of my life since the Playstation 1 came out. When animating the icons I wanted to create a fun animation that really showcased the main 4 icons that are used on a controller. It was fun to try out different GSAP methods and to get a better understanding on how everything works together. 
 
 ## How?
 * Use CSS `@keyframes` to define animations
@@ -20,8 +16,6 @@
 * [CHAT GPT] {https://chatgpt.com/}
 * [GSAP] {https://gsap.com/}
 
-## Favicons
-* Need to figure out how to create the Favicon.ico
 
 ## Tools Used
 * [Codepen] {https://codepen.io}
